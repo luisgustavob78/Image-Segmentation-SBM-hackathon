@@ -30,8 +30,8 @@ As result, we reached 82% of accuracy and 51% of losses.
 
 All the code was run on google colab, where all TensorFlow extensions are already installed. The only installation we needed to do was the following:
 
-´´´
+```
 
 pip install -q git+https://github.com/tensorflow/examples.git
 
-´´´
+```
