@@ -14,7 +14,7 @@ The company made avaliable 2000 images and respectives annotations for the parti
 
 To get the data ready for the model, we used Keras ImageDataGenerator to create the datasets and to execute a process of data augmentation that was used to increase our data and to simulate different quality of images to make the model more generalist
 
-![]('https://github.com/luisgustavob78/Image-Segmentation-SBM-hackathon/blob/main/image_data_generator.png')
+![](https://github.com/luisgustavob78/Image-Segmentation-SBM-hackathon/blob/main/image_data_generator.png)
 
 ## Modelling
 
@@ -24,14 +24,14 @@ Considering this detail, me and my team chose the Unet model beacuase is a light
 
 As result, we reached 82% of accuracy and 51% of losses.
 
-![]('https://github.com/luisgustavob78/Image-Segmentation-SBM-hackathon/blob/main/GIF%2025-10-2020%2021-52-58.gif')
+![](https://github.com/luisgustavob78/Image-Segmentation-SBM-hackathon/blob/main/GIF%2025-10-2020%2021-52-58.gif)
 
 ## Instalation 
 
 All the code was run on google colab, where all TensorFlow extensions are already installed. The only installation we needed to do was the following:
 
-'''
+´´´
 
 pip install -q git+https://github.com/tensorflow/examples.git
 
-'''
+´´´
